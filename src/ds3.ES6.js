@@ -14,3 +14,10 @@ const currency = ["100$", "200$", "300$", "400$"];
 const replace2ndCurrency = currency.splice(2,2,"900$");
 console.log("replace2ndCurrency", replace2ndCurrency);
 console.log("currency", currency);
+
+
+//reduceer add array of elements
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ let initialValues=0
+const addition= numbers.reduce((acc,cur)=>acc+cur,initialValues)
+console.log("addition", addition);
